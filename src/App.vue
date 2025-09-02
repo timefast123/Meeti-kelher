@@ -13,12 +13,12 @@
           <button
             class="px-6 py-3 rounded-xl bg-pink-600 hover:bg-pink-500 transition"
           >
-            Book Now
+            Watch my Private
           </button>
         </div>
         <div data-aos="zoom-in">
           <img
-            :src="profile.heroImage"
+            src="./assets/profile.png"
             alt="Hero Portrait"
             class="rounded-2xl shadow-2xl"
           />
@@ -70,13 +70,11 @@ export default {
   data() {
     return {
       profile: {
-        name: "Aarika Sharma",
+        name: "Meetii Kalher",
         tagline: "Bold. Versatile. Camera-ready.",
-        heroImage:
-          "https://images.unsplash.com/photo-1503342217505-b0a15cf70489?q=80&w=800",
         about:
           "A Mumbai-based actress known for bold characters and emotional depth. With 3+ years of experience in web-series, I bring a fearless and versatile energy to every role.",
-        email: "bookings@aarikasharma.com",
+        email: "meetiikalher@gmail.com",
         phone: "+91 98XX-XXX-XXX",
       },
       gallery: [
